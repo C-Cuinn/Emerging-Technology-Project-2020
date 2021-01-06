@@ -5,6 +5,7 @@ This project is to produce a python webservice that accurately predicts wind tur
 
 To run : 
 λ set FLASK_APP=flask.py
+
 λ python -m flask run
 
 
