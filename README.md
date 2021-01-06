@@ -4,6 +4,7 @@
 This project is to produce a python webservice that accurately predicts wind turbine power output from wind speed values, as in a data set. This program should be able to take in a wind speed value and through machine learning train a model that is used to output a prediction of the amount of power generated. 
 
 To run : 
+
 λ set FLASK_APP=flask.py
 
 λ python -m flask run
