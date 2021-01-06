@@ -4,8 +4,25 @@
 This project is to produce a python webservice that accurately predicts wind turbine power output from wind speed values, as in a data set. This program should be able to take in a wind speed value and through machine learning train a model that is used to output a prediction of the amount of power generated. 
 
 To run : 
+
 λ set FLASK_APP=flask.py
+
 λ python -m flask run
+
+
+### This repository contains :
+
+✬ powergeneration.ipynb, The main project file.
+
+✬ Dockerfile, Contains commands required by docker to run the container.
+
+✬ powerproduction.csv, The dataset we are working with.
+
+✬ flask.py, Contains the routes required for webapp functionality.
+
+✬ README, What you are currently reading.
+
+✬ requirements.txt, the import needed by the program in order to be able to run.
 
 
 

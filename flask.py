@@ -8,11 +8,11 @@ app = fl.Flask(__name__)
 def home(): # 
   return app.send_static_file('index.html')
 
-@app.route('/power_gen_lin')
+@app.route('/api/power_gen_lin')
 def power_gen_lin():
     return {}
 
-@app.route('/power_gen_pol')
+@app.route('/api/power_gen_pol')
 def power_gen_pol():
     return {}
     
