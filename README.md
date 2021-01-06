@@ -22,3 +22,4 @@ This project is to produce a python webservice that accurately predicts wind tur
     + https://matplotlib.org/devdocs/gallery/subplots_axes_and_figures/subplots_demo.html
     + https://nickmccullum.com/python-machine-learning/linear-regression-python/
     + https://stackabuse.com/how-to-set-axis-range-xlim-ylim-in-matplotlib/
+    + https://medium.com/@kylecaron/introduction-to-linear-regression-part-1-implementation-in-python-with-statsmodels-7dbf24461072
