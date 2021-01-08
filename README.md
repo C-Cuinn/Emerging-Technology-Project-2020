@@ -44,3 +44,5 @@ To run :
     + https://nickmccullum.com/python-machine-learning/linear-regression-python/
     + https://stackabuse.com/how-to-set-axis-range-xlim-ylim-in-matplotlib/
     + https://medium.com/@kylecaron/introduction-to-linear-regression-part-1-implementation-in-python-with-statsmodels-7dbf24461072
+
+    ✬✬✬PS. This project does not contain ore use keras because I tried everything but couldnt get it to import without errors.✬✬✬
