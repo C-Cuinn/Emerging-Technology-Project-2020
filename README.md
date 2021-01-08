@@ -7,7 +7,7 @@ To run :
 
 λ set FLASK_APP=prediction.py
 
-λ python -m prediction run
+λ python -m flask run
 
 ✬ It will run on at this address http://127.0.0.1:5000/
 
