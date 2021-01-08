@@ -5,9 +5,11 @@ This project is to produce a python webservice that accurately predicts wind tur
 
 To run : 
 
-λ set FLASK_APP=flask.py
+λ set FLASK_APP=prediction.py
 
-λ python -m flask run
+λ python -m prediction run
+
+✬ It will run on at this address http://127.0.0.1:5000/
 
 
 ### This repository contains :
@@ -18,7 +20,7 @@ To run :
 
 ✬ powerproduction.csv, The dataset we are working with.
 
-✬ flask.py, Contains the routes required for webapp functionality.
+✬ prediction.py, Contains the routes required for webapp functionality.
 
 ✬ README, What you are currently reading.
 
