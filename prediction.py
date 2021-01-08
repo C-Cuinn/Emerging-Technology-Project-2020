@@ -10,7 +10,7 @@ def home(): #
 
 @app.route('/api/power_gen_lin', methods=['GET', 'POST'])
 def power_gen_lin():
-        form = PowerForm(request.form)
+        form = PowerFormLin(request.form)
 
     if request.method == 'POST' and form.validate():
         lin = request.form['lin']
@@ -20,4 +20,10 @@ def power_gen_lin():
 
 @app.route('/api/power_gen_pol', methods=['GET', 'POST'])
 def power_gen_pol():
-    return {}
+    form = PowerFormPol(request.form)
+
+    if request.method == 'POST' and form.validate():
+        pol = request.form['lin']
+        return render_template('pol.html', power_gen=model_predict(power)[0])
+    # Send template information to index.html
+    return render_template('index.html', form=form)
